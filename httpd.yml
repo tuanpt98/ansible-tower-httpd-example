@@ -1,5 +1,5 @@
 - hosts: all
   tasks:
-  - name: Place the index file at project root
-    copy: src=index.html dest=/home/ec2-user/index.html 
+  - name: Place the check file to exicution
+    copy: src=check.html dest=/home/ec2-user/check.html 
 
