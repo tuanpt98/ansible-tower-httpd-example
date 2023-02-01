@@ -1,5 +1,5 @@
 - hosts: all
   tasks:
   - name: Place the index file at project root
-    copy: src=index.html dest=/home/ec2-user/index.html owner=apache group=apache mode=0644
+    copy: src=index.html dest={{ project_root }}/index.html owner=apache group=apache mode=0644
 
